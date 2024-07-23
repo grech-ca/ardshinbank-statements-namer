@@ -1,0 +1,31 @@
+{
+  "name": "ardshinbank-statements-namer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite-node src/main.ts",
+    "build": "tsc && vite-node build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.200",
+    "@types/node": "^20.8.10",
+    "@types/pdf-parse": "^1.1.3",
+    "@types/yargs": "^17.0.29",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-node": "^0.34.6",
+    "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dayjs": "^1.11.10",
+    "glob": "^10.3.10",
+    "lodash": "^4.17.21",
+    "loglevel": "^1.8.1",
+    "pdf-parse": "^1.1.1",
+    "pdfreader": "^3.0.2",
+    "yargs": "^17.7.2"
+  }
+}
